@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NachoGameplays: redes sociales</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            backdrop-filter: blur(10px);
+            transition: transform 0.3s ease;
+        }
+        .container:hover {
+            transform: scale(1.05);
+        }
+        h1 {
+            color: white;
+            margin-bottom: 10px;
+        }
+        .links {
+            list-style: none;
+            padding: 0;
+        }
+        .links li {
+            margin: 10px 0;
+        }
+        .links a {
+            display: block;
+            text-decoration: none;
+            background: linear-gradient(45deg, #ff416c, #ff4b2b);
+            padding: 10px 20px;
+            border-radius: 50px;
+            color: white;
+            font-size: 18px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        .links a:hover {
+            background: linear-gradient(45deg, #ff4b2b, #ff416c);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(255, 75, 43, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mis Redes Sociales</h1>
+        <ul class="links">
+            <li><a href="https://www.youtube.com/@NachoGameplays2013">YouTube</a></li>
+            <li><a href="https://github.com/PanaMiguelDev">GitHub</a></li>
+        </ul>
+    </div>
+</body>
+</html>
